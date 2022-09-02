@@ -215,7 +215,7 @@ def course_detail(cid):
 	for n in tshirt:
 		jackets.append(student.query.filter_by(student_id=n).all())
 
-	return render_template('cdetail.html', sock=socks, jacket=jackets, lad=jackets) #html file needs styling
+	return render_template('cdetail.html', sock=socks, jacket=jackets, lad=jackets)
 
 #_________________________________________________________________________________________________________running the flask app_
 
